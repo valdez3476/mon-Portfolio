@@ -1,34 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Takou Fokou - Développeur full stack</title>
+    <meta name="description" content="Portfolio de Takou Fokou - Développeur Full Stack passionné par la création d'applications web modernes et performantes">
+    <meta name="author" content="Takou Fokou">
+    <title>Dev-valdez</title>
     <link rel="stylesheet" href="PortFolio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!--__________________________________________________Header of my PortFolio____________________________-->
+    <!-- Header -->
     <header>
         <div class="container">
             <nav>
-                <div class="logo"><span class="">TF</span>Takou Fokou</div>
+                <div class="logo">
+                    <span class="logo-accent">&lt;/&gt;</span>
+                    Takou Fokou
+                </div>
                 <ul class="nav-links">
                     <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#apropos">A propos</a></li>
+                    <li><a href="#apropos">À propos</a></li>
                     <li><a href="#competences">Compétences</a></li>
                     <li><a href="#projets">Projets</a></li>
-                    <li><a href="#contact">Contact</a></li> 
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <div class="menu-toggle">
-                    <i class="fas fa-user"></i>
+                    <i class="fas fa-bars"></i>
                 </div>
             </nav>
         </div>
     </header>
 
-    <!--___________________________________________________Hero section________________________________________-->
+    <!-- Hero Section -->
     <section id="accueil" class="hero">
         <div class="bubbles">
             <div class="bubble"></div>
@@ -36,210 +41,313 @@
             <div class="bubble"></div>
             <div class="bubble"></div>
             <div class="bubble"></div>
-            <div class="bubble"></div>  
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
         </div>
         <div class="container">
-            <div class="hero-image fade-in">
-                <div class="profile-img-container">
-                    <img src="valdez.png" alt="Photo de Takou Fokou" class="profile-img">
-                <div class="profile-bg"></div>
+            <div class="hero-content fade-in">
+                <div class="hero-badge">👋 Bonjour, je suis</div>
+                <h1>Takou <span>Fokou</span></h1>
+                <div class="hero-title">
+                    <span class="typed-text">Développeur Full Stack</span>
+                </div>
+                <p>Je transforme des idées en solutions digitales élégantes, performantes et accessibles. Spécialisé dans les technologies modernes comme Laravel, Vue.js et MySQL.</p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-outline">Me contacter</a>
+                </div>
+                <div class="hero-social">
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="GitLab"><i class="fab fa-gitlab"></i></a>
+                </div>
             </div>
-         <div class="hero-content fade-in delay-1">
-            <h1>Hello, I'm <span>Takou Fokou</span></h1>
-            <p>Développeur Full Stack passionné par la création d'expériences web innovantes et performantes. Je transforme des idées en solutions digitales élégantes et fonctionnelles.</p>
-            <p>Avec plus de 1 ans d'expérience dans le développement web, j'ai travaillé sur divers projets allant des applications web complexes aux sites e-commerce. Mon expertise couvre l'ensemble du cycle de développement, de la conception à la mise en production.</p>
-            <p>Je suis spécialisé dans les technologies modernes comme Laravel, Vue.js et les bases de données avec Mysql. Mon objectif est de créer des produits qui allient performance, accessibilité et expérience utilisateur exceptionnelle.</p>
-            <a href="#projets" class="btn">Voir mes projets</a>
-            <a href="#contact" class="btn" style="margin-left: 15px; background: transparent; border: 2px solid var(--primary); color: var(--primary);">Me contacter</a>
+            <div class="hero-image fade-in delay-1">
+                <div class="profile-img-container">
+                    <div class="profile-img-wrapper">
+                        <img src="valdez.png" alt="Takou Fokou - Développeur Full Stack" class="profile-img">
+                    </div>
+                    <div class="profile-bg"></div>
+                    <div class="profile-experience">
+                        <span>1+</span>
+                        <p>Années d'expérience</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        </div>    
+        <div class="scroll-indicator">
+            <a href="#apropos">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
     </section>
 
-    <!--__________________________________________________About section________________________________________-->
+    <!-- About Section -->
     <section id="apropos" class="about">
         <div class="container">
             <div class="section-title fade-in">
                 <h2>À propos de moi</h2>
+                <p>Qui je suis et ce que je fais</p>
             </div>
             <div class="about-content">
                 <div class="about-text fade-in">
-                    <h3>Développeur passionné avec 1 ans d'expérience</h3>
-                    <p>Je suis un développeur full stack spécialisé dans la création d'applications web modernes et performantes. Mon expertise couvre à la fois le frontend et le backend, avec une attention particulière portée à l'expérience utilisateur.</p>
-                    <p>Je suis constamment à la recherche de nouvelles technologies et de défis stimulants pour améliorer mes compétences et créer des solutions innovantes.</p>
-                    <a href="#contact" class="btn">Me contacter</a>
+                    <h3>Développeur Full Stack passionné</h3>
+                    <p>Je suis un développeur full stack basé au Cameroun, spécialisé dans la création d'applications web modernes et performantes. Mon expertise couvre à la fois le frontend et le backend, avec une attention particulière portée à l'expérience utilisateur et aux performances.</p>
+                    <p>Passionné par les nouvelles technologies, je suis constamment à la recherche de défis stimulants pour améliorer mes compétences et créer des solutions innovantes qui répondent aux besoins réels des utilisateurs.</p>
+                    <p>Je crois fermement que la technologie doit être au service de l'humain. C'est pourquoi je m'engage à développer des applications accessibles, intuitives et qui apportent une réelle valeur ajoutée.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Damas, Cameroun</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>valdez3476@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+237 673818518</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Me contacter</a>
                 </div>
                 <div class="about-stats">
                     <div class="stat fade-in delay-1">
                         <i class="fas fa-briefcase"></i>
-                        <h4>2+</h4>
+                        <h4>1+</h4>
                         <p>Années d'expérience</p>
                     </div>
                     <div class="stat fade-in delay-2">
                         <i class="fas fa-project-diagram"></i>
-                        <h4>2+</h4>
+                        <h4>3+</h4>
                         <p>Projets réalisés</p>
                     </div>
                     <div class="stat fade-in delay-3">
-                        <i class="fas fa-users"></i>
-                        <h4>1+</h4>
-                        <p>Clients satisfaits</p>
+                        <i class="fas fa-code"></i>
+                        <h4>5+</h4>
+                        <p>Projets personnels</p>
                     </div>
                     <div class="stat fade-in delay-4">
                         <i class="fas fa-award"></i>
-                        <h4>1+</h4>
-                        <p>Certifications</p>
+                        <h4>2+</h4>
+                        <p>Certifications en cours</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--_________________________________Skills section_______________________________________-->
-
+    <!-- Skills Section -->
     <section id="competences" class="skills">
         <div class="container">
             <div class="section-title fade-in">
                 <h2>Mes Compétences</h2>
+                <p>Les technologies que je maîtrise</p>
             </div>
             <div class="skills-container">
-
-    <!-----------------------------------Compétence 1-------------------------------------------->
                 <div class="skill-card fade-in">
                     <div class="skill-header">
                         <div class="skill-icon">
                             <i class="fab fa-html5"></i>
                         </div>
-                        <h3>HTML/CSS</h3>
+                        <div>
+                            <h3>HTML5 / CSS3</h3>
+                            <p>Maîtrise avancée</p>
+                        </div>
                     </div>
-                    <p>Création d'interfaces web responsives et accessibles avec les dernières normes HTML5 et CSS3.</p>
+                    <p>Création d'interfaces web responsives et accessibles avec les dernières normes HTML5, CSS3 et animations modernes.</p>
                     <div class="skill-bar">
-                        <div class="skill-progress" style="--target-width: 35%">
-                            <span class="skill-percent">35%</span>
+                        <div class="skill-progress" style="--target-width: 75%">
+                            <span class="skill-percent">75%</span>
                         </div>
                     </div>
                 </div>
 
-    <!--------------------------------- Compétence 2-------------------------------------------->
                 <div class="skill-card fade-in delay-1">
                     <div class="skill-header">
                         <div class="skill-icon">
                             <i class="fab fa-js"></i>
                         </div>
-                        <h3>JavaScript</h3>
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Intermédiaire</p>
+                        </div>
                     </div>
-                    <p>Développement de sites web interactives avec JavaScript et frameworks modernes.</p>
+                    <p>Développement d'interactions dynamiques, manipulation du DOM, et utilisation des fonctionnalités ES6+.</p>
                     <div class="skill-bar">
-                        <div class="skill-progress" style="--target-width: 10%">
-                            <span class="skill-percent">10%</span>
+                        <div class="skill-progress" style="--target-width: 50%">
+                            <span class="skill-percent">50%</span>
                         </div>
                     </div>
                 </div>
 
-
-    <!------------------------------- Compétence 3---------------------------------------------->
                 <div class="skill-card fade-in delay-2">
                     <div class="skill-header">
                         <div class="skill-icon">
-                            <i class="fab fa-react"></i>
+                            <i class="fab fa-vuejs"></i>
                         </div>
-                        <h3>React</h3>
+                        <div>
+                            <h3>Vue.js</h3>
+                            <p>Intermédiaire</p>
+                        </div>
                     </div>
-                    <p>Création d'interfaces utilisateur dynamiques avec Vue.js, React.js et les hooks modernes.</p>
+                    <p>Création d'interfaces utilisateur réactives avec Vue.js, composition API, et Pinia pour la gestion d'état.</p>
                     <div class="skill-bar">
-                        <div class="skill-progress" style="--target-width: 15%">
-                            <span class="skill-percent">15%</span>
+                        <div class="skill-progress" style="--target-width: 45%">
+                            <span class="skill-percent">45%</span>
                         </div>
                     </div>
                 </div>
 
-    <!------------------------------- Compétence 4-------------------------------------------->
                 <div class="skill-card fade-in delay-3">
                     <div class="skill-header">
                         <div class="skill-icon">
                             <i class="fab fa-laravel"></i>
                         </div>
-                        <h3>Node.js</h3>
+                        <div>
+                            <h3>Laravel</h3>
+                            <p>Intermédiaire</p>
+                        </div>
                     </div>
-                    <p>Développement d'APIs RESTful et d'applications backend performantes avec Laravel et Node.js.</p>
+                    <p>Développement d'APIs RESTful, authentification, Eloquent ORM, et architecture MVC.</p>
                     <div class="skill-bar">
-                        <div class="skill-progress" style="--target-width: 10%">
-                            <span class="skill-percent">10%</span>
+                        <div class="skill-progress" style="--target-width: 45%">
+                            <span class="skill-percent">45%</span>
                         </div>
                     </div>
                 </div>
-    </section>
 
-    <!--_______________________________ Projets section___________________________________________-->
-
-    <section id="projets" class="projects">
-        <div class="container">
-            <div class="section-title fade-in">
-                <h2>Mes Projets</h2>
-            </div>
-            <div class="projects-grid">
-                <!---------------------- Projet 1 ---------------------------------------------->
-                <div class="project-card fade-in">
-                    <div class="project-img">
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>E-commerce React</h3>
-                        <p>Plateforme e-commerce complète avec panier, paiement et gestion des commandes.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Vue.js</span>
-                            <span class="tech-tag">Chart.js</span>
-                            <span class="tech-tag">Mysql</span>
+                <div class="skill-card fade-in delay-4">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
                         </div>
-                        <a href="#" class="btn">Voir le projet</a>
+                        <div>
+                            <h3>MySQL / PostgreSQL</h3>
+                            <p>Intermédiaire</p>
+                        </div>
+                    </div>
+                    <p>Conception de bases de données relationnelles, requêtes SQL optimisées, et gestion des migrations.</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--target-width: 55%">
+                            <span class="skill-percent">55%</span>
+                        </div>
                     </div>
                 </div>
 
-                <!---------------------- Projet 2 --------------------------------------------->
-                <div class="project-card fade-in delay-1">
-                    <div class="project-img">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Dashboard Analytics</h3>
-                        <p>Tableau de bord interactif pour visualiser et analyser des données en temps réel.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Vue.js</span>
-                            <span class="tech-tag">Chart.js</span>
-                            <span class="tech-tag">Laravel</span>
+                <div class="skill-card fade-in delay-5">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-git-alt"></i>
                         </div>
-                        <a href="#" class="btn">Voir le projet</a>
-                    </div>
-                </div>
-
-                <!--------------------- Projet 3 -------------------------------------------->
-                <div class="project-card fade-in delay-2">
-                    <div class="project-img">
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Systeme de gestion d'annuaire</h3>
-                        <p>Application de gestion de contacts.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Blade</span>
-                            <span class="tech-tag">Laravel</span>
-                            <span class="tech-tag">Tailwindcss</span>
+                        <div>
+                            <h3>Git & GitHub</h3>
+                            <p>Intermédiaire</p>
                         </div>
-                        <a href="#" class="btn">Voir le projet</a>
+                    </div>
+                    <p>Gestion de versions, collaboration en équipe, et utilisation des bonnes pratiques Git Flow.</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--target-width: 60%">
+                            <span class="skill-percent">60%</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <!--______________________________________ Contact section____________________________-->
+    <!-- Projects Section -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Mes Projets</h2>
+                <p>Quelques réalisations dont je suis fier</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Shop</h3>
+                        <p>Plateforme e-commerce complète avec panier d'achat, système de paiement intégré et gestion des commandes.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Tailwind</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Voir le projet</a>
+                            <a href="#" class="btn-icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="project-card fade-in delay-1">
+                    <div class="project-img">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Dashboard Analytics</h3>
+                        <p>Tableau de bord interactif pour visualiser et analyser des données en temps réel avec graphiques dynamiques.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">API REST</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Voir le projet</a>
+                            <a href="#" class="btn-icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in delay-2">
+                    <div class="project-img">
+                        <i class="fas fa-address-book"></i>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Gestion d'Annuaire</h3>
+                        <p>Application complète de gestion de contacts avec recherche avancée, catégorisation et export de données.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Blade</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Voir le projet</a>
+                            <a href="#" class="btn-icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-title fade-in">
                 <h2>Contactez-moi</h2>
+                <p>Discutons de votre prochain projet</p>
             </div>
             <div class="contact-container">
                 <div class="contact-info">
-                    <div class="contact-item fade-in">
+                    <div class="contact-card fade-in">
                         <div class="contact-icon">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
@@ -248,7 +356,7 @@
                             <p>Damas, Cameroun</p>
                         </div>
                     </div>
-                    <div class="contact-item fade-in delay-1">
+                    <div class="contact-card fade-in delay-1">
                         <div class="contact-icon">
                             <i class="fas fa-envelope"></i>
                         </div>
@@ -257,54 +365,115 @@
                             <p>valdez3476@gmail.com</p>
                         </div>
                     </div>
-                    <div class="contact-item fade-in delay-2">
+                    <div class="contact-card fade-in delay-2">
                         <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
+                            <i class="fas fa-phone-alt"></i>
                         </div>
                         <div>
                             <h3>Téléphone</h3>
-                            <p>+237 673818518/674241237</p>
+                            <p>+237 673 818 518</p>
+                            <p class="phone-small">+237 674 241 237</p>
                         </div>
                     </div>
                 </div>
                 <div class="contact-form fade-in delay-3">
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Nom</label>
-                            <input type="text" id="name" class="form-control" placeholder="Votre nom">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" class="form-control" placeholder="Votre email">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nom complet</label>
+                                <input type="text" id="name" class="form-control" placeholder="Jean Dupont" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="jean@example.com" required>
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="subject">Sujet</label>
-                            <input type="text" id="subject" class="form-control" placeholder="Sujet du message">
+                            <input type="text" id="subject" class="form-control" placeholder="Sujet de votre message" required>
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea id="message" class="form-control" placeholder="Votre message"></textarea>
+                            <textarea id="message" class="form-control" placeholder="Votre message..." required></textarea>
                         </div>
-                        <button type="submit" class="btn">Envoyer le message</button>
+                        <button type="submit" class="btn btn-primary">Envoyer le message</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
 
-     <!--_________________________________________ Footer_________________________________________________ -->
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="social-links">
-                <a href="#"><i class="fab fa-gitlab"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">&lt;Takou Fokou/&gt;</div>
+                    <p>Développeur Full Stack</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="GitLab"><i class="fab fa-gitlab"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
             </div>
             <p class="copyright">&copy; 2025 Takou Fokou. Tous droits réservés.</p>
         </div>
     </footer>
 
+    <script>
+        // Menu mobile toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Fermer le menu au clic sur un lien
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Header transparent au scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Animation au scroll
+        const fadeElements = document.querySelectorAll('.fade-in, .skill-card, .project-card, .stat, .contact-card');
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        fadeElements.forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Gestion du formulaire
+        document.getElementById('contactForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Merci pour votre message ! Je vous répondrai dans les plus brefs délais.');
+            e.target.reset();
+        });
+    </script>
 </body>
 </html>
