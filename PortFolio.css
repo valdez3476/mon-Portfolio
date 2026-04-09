@@ -42,7 +42,7 @@ body {
 /* Header */
 header {
     background-color: rgba(26, 26, 26, 0.95);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     box-shadow: 0 4px 12px var(--shadow);
     position: fixed;
     width: 100%;
